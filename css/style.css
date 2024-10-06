@@ -1,0 +1,81 @@
+/** @format */
+body {
+  background-color: #f2ede6;
+  color: #563d19;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #563d19;
+}
+
+.container {
+  max-width: 500px;
+  margin: 70px auto;
+  padding: 60px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 7px;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/492/original/CAPTURE1.png?1728182143);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  text-align: center;
+  margin-top: -30px;
+}
+
+select {
+  background-color: #d3cfcf;
+  width: 60%;
+  display: block;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 10px;
+  margin-left: -5px;
+}
+
+h2 {
+  margin: 0 auto;
+}
+footer {
+  font-family: monospace;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+}
